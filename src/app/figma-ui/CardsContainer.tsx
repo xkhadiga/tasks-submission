@@ -105,7 +105,7 @@ function CardsContainer() {
               <Image
                 src={item.img}
                 alt="card bg"
-                fill
+                fill={true}
                 className={`object-cover rounded-xl transition-opacity duration-500 z-0                   
                 }`}
                 loading="lazy"
