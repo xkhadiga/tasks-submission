@@ -76,6 +76,7 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  font-family: "Poppins", sans-serif;
 }
 
 .dark {
@@ -122,20 +123,28 @@
 }
 
 .loader {
-    width: 1.2rem;
-    height: 1.2rem;
-    border-bottom-color: transparent;
-    border-radius: 50%;
-    display: inline-block;
-    box-sizing: border-box;
-    animation: rotation 1s linear infinite;
-    }
+  width: 1.2rem;
+  height: 1.2rem;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
 
-    @keyframes rotation {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-    } 
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.properties-link span {
+  transition: all 0.35s ease-in-out;
+}
+.properties-link:hover span {
+  transform: rotate(-180deg);
+  transition: transform 0.35s ease-in-out;
+}

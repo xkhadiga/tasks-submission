@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**Frontend Tasks** 
+This repository contains three frontend tasks implemented using Next.js, TypeScript, Tailwind CSS, and other modern frontend tools. The home page features three cards, each linking to a task, allowing easy navigation and demonstration of functionality.
 
-## Getting Started
+**Tech Stack**
 
-First, run the development server:
+Next.js v15.4.8
+React.js
+TypeScript
+Tailwind CSS
+Shadcn UI components
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+React Hook Form & Zod
+React Query
+React Toastify
+Axios 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Swiper.js 
+Framer Motion
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Home Page**
+The home page contains three cards, each linking to one of the tasks:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ Task 1 → Register Form with validation
+ Task 2 → Fetch & Render List with Search Filter
+ Task 3 → Figma UI 
+ 
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+**Tasks Overview**
+*Task 1*
+A simple registration form for user signup.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+*Features*
+-Tailwind CSS and Shadcn for styling
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-React Hook Form, Zod, React Query for form handling and validation
 
-## Deploy on Vercel
+-Email validation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-Password validation (minimum 8 characters) and confirm password check
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+-Eye icon to toggle show/hide password
+
+-Error messages displayed under each input
+
+-Submit button disabled while submitting, with loading spinner
+
+-Success and error notifications using React Toastify
+
+------
+
+*Task2*
+Next.js project to fetch users from  API and display them in cards.
+
+*Features*
+-Fetch users from API using Axios
+
+-Search input to filter users by name
+
+-Render user cards with Name, Email, Company
+
+-Show loading indicator while fetching or filtering
+
+-Responsive design with Tailwind CSS
+
+
+-------
+
+*Task 3*
+Pixel-perfect UI design based on a Figma mockup.
+
+*Features*
+-Built using Next.js, Swiper, Framer Motion, and Shadcn
+
+-Interactive, animated, and responsive card/slider components
+
+-Fully mobile friendly 
