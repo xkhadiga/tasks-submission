@@ -1,7 +1,7 @@
-**Frontend Tasks** 
+# Frontend Tasks
 This repository contains three frontend tasks implemented using Next.js, TypeScript, Tailwind CSS, and other modern frontend tools. The home page features three cards, each linking to a task, allowing easy navigation and demonstration of functionality.
 
-**Tech Stack**
+## Tech Stack
 
 Next.js v15.4.8
 React.js
@@ -17,7 +17,9 @@ Axios
 Swiper.js 
 Framer Motion
 
-**Home Page**
+
+
+## Home Page
 The home page contains three cards, each linking to one of the tasks:
 
  Task 1 → Register Form with validation
@@ -26,11 +28,11 @@ The home page contains three cards, each linking to one of the tasks:
  
 
 
-**Tasks Overview**
-*Task 1*
+## Tasks Overview
+### Task 1 
 A simple registration form for user signup.
 
-*Features*
+**Features**
 -Tailwind CSS and Shadcn for styling
 
 -React Hook Form, Zod, React Query for form handling and validation
@@ -49,10 +51,10 @@ A simple registration form for user signup.
 
 ------
 
-*Task2*
+### Task 2 
 Next.js project to fetch users from  API and display them in cards.
 
-*Features*
+**Features**
 -Fetch users from API using Axios
 
 -Search input to filter users by name
@@ -66,10 +68,10 @@ Next.js project to fetch users from  API and display them in cards.
 
 -------
 
-*Task 3*
+### Task 3 
 Pixel-perfect UI design based on a Figma mockup.
 
-*Features*
+**Features**
 -Built using Next.js, Swiper, Framer Motion, and Shadcn
 
 -Interactive, animated, and responsive card/slider components
